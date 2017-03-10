@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#000"
+    >
+
+    <TextView
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:background="#f00"
+        android:text="RED"
+        />
+
+    <TextView
+        android:layout_width="150px"
+        android:layout_height="100px"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:background="#ff6633"
+        android:text="ORANGE"
+        />
+    <TextView
+        android:layout_width="150px"
+        android:layout_height="100px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:background="#ff0"
+        android:text="YELLOW"
+        />
+    <TextView
+        android:id="@+id/blue"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:background="#00f"
+        android:text="BLUE"
+        />
+
+    <TextView
+        android:layout_width="150px"
+        android:layout_height="100px"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@id/blue"
+        android:gravity="center"
+        android:background="#0f0"
+        android:text="GREEN"
+        />
+
+    <TextView
+        android:layout_width="150px"
+        android:layout_height="100px"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/blue"
+        android:gravity="center"
+        android:background="#68228B"
+        android:text="INDOGO"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:background="#ff00ff"
+        android:text="VIOLET"
+        />
+
+
+
+
+
+
+
+</RelativeLayout>
